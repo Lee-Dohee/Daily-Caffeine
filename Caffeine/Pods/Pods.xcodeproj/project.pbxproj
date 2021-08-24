@@ -1,0 +1,1343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		015511D4ACD183CB78F8F0F79FCF3F01 /* MDCBottomSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B32D72EB779E99EA87C7FCA4BE78A50 /* MDCBottomSheetController.m */; };
+		045B17ADCA714417CCF0DCC9D9096D24 /* MDCDraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1D76E49C772146F5931B855824D013 /* MDCDraggableView.m */; };
+		046F6C91F05E7887A8494A5130BA030F /* Pods-Caffeine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 718686C9F09A4B6C2B69FD4004D60515 /* Pods-Caffeine-dummy.m */; };
+		066439D717AE4BC003363486E27C707A /* MDCTriangleEdgeTreatment.m in Sources */ = {isa = PBXBuildFile; fileRef = B5961E0B3523DBE7A3B9D43BCD0B27DD /* MDCTriangleEdgeTreatment.m */; };
+		0673F3481EF6165F70E8F0990278BDC7 /* FSCalendarStickyHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E49E8A21247172A7D8A10DE246B4835 /* FSCalendarStickyHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0768B68EC675EBCCABB024A9FB318444 /* MaterialColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 72F15BFD09A4A5633FAE4A213D6CC230 /* MaterialColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		083B18F49C35728E9A7B828E73DF2EB8 /* FSCalendarDelegationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB2A6D0B33E0DC495A7561A91B1144A /* FSCalendarDelegationFactory.m */; };
+		0C880D762097C192F231E5560AF4EE29 /* FSCalendarDelegationProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0125908E7D9A4FCD4C36BD41C5CC7186 /* FSCalendarDelegationProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E4A225B2E9192B1B7C8DFB85B4303AF /* FSCalendarExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = A5431C8700230EF022796184C7DFBF00 /* FSCalendarExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EDCAFA93DA0E7D98A2CF2386FEAA550 /* FSCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C6742E6311CB67EFDA41C0FD71F2E2 /* FSCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F2DEB38F550FF5F643CD48BE324B009 /* FSCalendarSeparatorDecorationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F20EC0DEF408EB12AB27C734130B0C8 /* FSCalendarSeparatorDecorationView.m */; };
+		19F431D12744F02779B1FCA82579DDD6 /* MDCShapeGenerating.h in Headers */ = {isa = PBXBuildFile; fileRef = D535F22D4F33915BCCD6886AA3404B8E /* MDCShapeGenerating.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A304FAEF5CF0C1E8622E908555FE490 /* MDCCurvedCornerTreatment.h in Headers */ = {isa = PBXBuildFile; fileRef = A10DF8CF8BE28E56EE8D7CCAB0035879 /* MDCCurvedCornerTreatment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A6CEDB0E42E0DEA22512AE2D91707C8 /* MDCSlantedRectShapeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 073D3548D58E7B1F4C5E143A4B6C6ADC /* MDCSlantedRectShapeGenerator.m */; };
+		1B304B7C5104F9421117AFEB21453F67 /* UIColor+MaterialDynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = 24CB4ECF957BAB738130D5D6F3EFE0DF /* UIColor+MaterialDynamic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BDE0FED974714A835CB89AD1062FF0D /* FSCalendarExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F524FC724E8EB9A26C4456BD048A113 /* FSCalendarExtensions.m */; };
+		1E0C257A13260508F9FC03D637764614 /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA9C730048FF396E218152955E2A4F3 /* FSCalendarStickyHeader.m */; };
+		1ED6A018A50C929244C03FC6A46670F8 /* FSCalendarDelegationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E89F912ADF4220CA16E70FB1A23FBF0 /* FSCalendarDelegationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2126BAE2A3A69461E8B00562CFF6D67C /* FSCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5370C4E433F173CA0D522E9BCEBB1CFA /* FSCalendar-dummy.m */; };
+		23AD7797186955B046EA44B8636C1AC3 /* MaterialBottomSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 025ECD622BA2A275974B3CDC56315947 /* MaterialBottomSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25A90CB838F94F6308EA293F3047C42E /* MDCAvailability.h in Headers */ = {isa = PBXBuildFile; fileRef = C39786825C732645A92E90D2DF57A812 /* MDCAvailability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A00198B4641725EC612125584590BA5 /* MDCSheetBehavior.h in Headers */ = {isa = PBXBuildFile; fileRef = E66C7E7E292017E2CE7786ECCACDB057 /* MDCSheetBehavior.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2B08C5A22A776EDEB74DB4B835A19B1D /* MaterialElevation.h in Headers */ = {isa = PBXBuildFile; fileRef = E2B51A08EBED2F545CFB49F8EF1C6F81 /* MaterialElevation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C0CEBFD92AF5FE06B0F5D47D68FB86B /* MDCBottomSheetController.h in Headers */ = {isa = PBXBuildFile; fileRef = 971D804D63C875889D1937DBF1520D31 /* MDCBottomSheetController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E2BD5BB87E4AC41401353835E7F7914 /* MDCSheetBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0E68FB5B234F37B7A17AFE7D5512DB /* MDCSheetBehavior.m */; };
+		2E5EC07CFD18A132E57569D00117C703 /* FSCalendarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 60063EDAE441C47C47780DCAD695CF94 /* FSCalendarConstants.m */; };
+		34D352F0915CF9F8500B1D5A94AF36C6 /* UIApplication+MDCAppExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = AAFA74472CCC109821980A25F361EC65 /* UIApplication+MDCAppExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		357A8A169BB53A5F85A3B2EA04A54F0F /* MDCCurvedRectShapeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3626103E73CF374455B4567932F7EB57 /* MDCCurvedRectShapeGenerator.m */; };
+		3873F4D2DBAA04C02ADADDDE71898F31 /* MDCSheetState.h in Headers */ = {isa = PBXBuildFile; fileRef = CE406BD4A77929A5098F6E8519C39185 /* MDCSheetState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F035D81FAF81A41E9E58238265A0051 /* MDCRoundedCornerTreatment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC581757CA3D383E9800D9634D81EFA /* MDCRoundedCornerTreatment.m */; };
+		3F0F6CEFD0801BEA64D1A265AE92FC05 /* FSCalendarWeekdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E75025E42A7EF9DB4B758459445C176 /* FSCalendarWeekdayView.m */; };
+		3FF765F75F1270082F2EE95FDA9EF8BA /* MDCRectangleShapeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 992D9F90A2DFE42D8FB258BD9332E039 /* MDCRectangleShapeGenerator.m */; };
+		41EC1065752BAACEE3C4EDC8CABB900B /* MaterialKeyboardWatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A8CED52AE1841A38138ABA0F3E52543 /* MaterialKeyboardWatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46495406605D108F4CD12BDE5A4B6AF2 /* MDCSheetContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 494CC5574080259FAE91499599AB5A1A /* MDCSheetContainerView.m */; };
+		487467099AB8229395A1A005DC6AD4F4 /* FSCalendarCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 434FA17148D3C6FA1652942126C809E6 /* FSCalendarCollectionViewLayout.m */; };
+		48DC50A48CEC3AEC56CB6C3144EF4D47 /* FSCalendarDelegationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F3527E95640CAC051267AD119694CD /* FSCalendarDelegationProxy.m */; };
+		4958DBF1C53FFBB5924C6F3C91B9F7A9 /* MDCShapedShadowLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EC7981D780A325D92432ABEEC4424EC /* MDCShapedShadowLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A76ABED65F7F6BAC8338E6A602C1AB3 /* UIView+MaterialElevationResponding.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C3498CD71A8B603C5C1AA8E52CA5C6B /* UIView+MaterialElevationResponding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B06E7A9994CCDB40333001E83F1FD79 /* FSCalendarCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = FA3023A6373313EC4724F75ADC7BFDE1 /* FSCalendarCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B11C48CCA7FD866A774B0E49FB595DA /* FSCalendarTransitionCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = AF793637DC2334F72180E46C1260B057 /* FSCalendarTransitionCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C79C31591A80E7209E52F0928F7546C /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E5E40D440B20B8986105403092FBA3 /* FSCalendarCell.m */; };
+		4EC8090B180710C479A3B21CD72FB213 /* MDCBottomSheetPresentationControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E3689E2FD1E37A9E95CB58DD36F8C3A0 /* MDCBottomSheetPresentationControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51EBF4ED4DA88FCB58F2CAC291D1079A /* MDCRoundedCornerTreatment.h in Headers */ = {isa = PBXBuildFile; fileRef = D18376845CB6CF004205E73B19108342 /* MDCRoundedCornerTreatment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52565719316CADB05B7C8FA79964519A /* FSCalendarCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 5499F2249F2415410C84334E5A1EE95C /* FSCalendarCollectionViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		528D55FC297AD93F1463CAC1B0CCD1CD /* MDCShadowLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A579C29EB138C19B5E79A950C5F2F59B /* MDCShadowLayer.m */; };
+		58AD6758D9237AFCBAE75CF5AA275C47 /* FSCalendarAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 62DBF1EDCC1A98F91456473B1940817F /* FSCalendarAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		592002A7F1B30C9E5A6A2D3624E6642D /* MaterialShapes.h in Headers */ = {isa = PBXBuildFile; fileRef = 473CC10C33EFF03068C3C56F3C43D24B /* MaterialShapes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62A95262A25CE34C27B3FD2B1969277C /* MDCElevatable.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CBE6C5057C0695B1C530D387328CB6 /* MDCElevatable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		647C3DF4DD99EF544435173281FF6E92 /* UIColor+MaterialBlending.h in Headers */ = {isa = PBXBuildFile; fileRef = 11EF646D1216CEDF2CF98B21E45A8D5B /* UIColor+MaterialBlending.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68D1C976F2E0B7ACB1000C5FB3ADA5E1 /* UIColor+MaterialBlending.m in Sources */ = {isa = PBXBuildFile; fileRef = 4306AA63C0685005E9C0FE76B7E6678A /* UIColor+MaterialBlending.m */; };
+		6BC96BCB3EF130F53BB9A78D7E2EFB9E /* UIViewController+MaterialBottomSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD9C8FA910F8222F7F2501DB46CC6A4 /* UIViewController+MaterialBottomSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CF04FDA8240D858280268329C2674E9 /* FSCalendarConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B64B7E16E7DF324EBD9A17CFBC2E663 /* FSCalendarConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F3E35952D17589EA939B24A4798FDF0 /* UIColor+MaterialDynamic.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B79E0C2C8F99F5E00A822694253311 /* UIColor+MaterialDynamic.m */; };
+		79709A0F4E6BFCEF9D0E853CD6807959 /* MDCKeyboardWatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = D5599F633EA1052CBF5284672A6914CC /* MDCKeyboardWatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BD813EB53FFD5E61D3E8D17FDEF5762 /* MaterialApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 1695D8FF9D0998FAAD1D4B6344DE6129 /* MaterialApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D3E486DB6C65975B839986EBFD38318 /* MDCPillShapeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F030051F60D3255129C1F15E0DB1FC6 /* MDCPillShapeGenerator.m */; };
+		7EAEA451E04E5E96AFE6D1B63313F624 /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC449EC9989C1B8EA966FCDAD7955E9 /* FSCalendar.m */; };
+		7F98776A7962572395F923703553ABAA /* MDCKeyboardWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3756367D8464398DB102609DB5F1F7D2 /* MDCKeyboardWatcher.m */; };
+		81F6B3871E03BF241CB40023C4442227 /* MDCElevationOverriding.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A99E0F703F177CC8DBC756296EBFBE8 /* MDCElevationOverriding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8226EF38F2234303BB738273DD72DF7A /* MDCRectangleShapeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = D75C2691DB0BC78B97EC01713DFFE772 /* MDCRectangleShapeGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83BA64B1B6C5CB7E0F0FDF3FB8AD734F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC3518725ED0791502E99F93252E2EE /* Foundation.framework */; };
+		83E77B4563193B5EF5BCD5BA674DC997 /* MDCSheetContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6525D2DC6F6137D103B96854A911BA88 /* MDCSheetContainerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		84B037D3215B9BD0863CAE3BB692CAE2 /* MDCShapedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55264C952736350D0354445D5A2E96BF /* MDCShapedView.m */; };
+		8607B06ECC453ABECA0C6F9E92395376 /* MaterialShadowElevations.h in Headers */ = {isa = PBXBuildFile; fileRef = 04AB9C3A775D5ABBA580EB9479343D83 /* MaterialShadowElevations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8633C154CEC62F5ECAE687CC7ED8067E /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = EA98DA2E5BD1BB8A76570700C39A5DA6 /* FSCalendarAppearance.m */; };
+		87E4A53B714A12498CE600B77686C8A8 /* MDCBottomSheetPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A273CF9B5350DBAFFB6655A5721B919D /* MDCBottomSheetPresentationController.m */; };
+		888032AC899C87D4E12B1993502699F2 /* MDCCutCornerTreatment.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BAA161FF422965E7CEE6ADBE7CDF1C /* MDCCutCornerTreatment.m */; };
+		889FD7B6C2C8CD0E91C35B43074B0752 /* MaterialComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E913CAF2E257F2D19C4FDD55AB44B68 /* MaterialComponents-dummy.m */; };
+		8AB76EF4157ADE0806FA3B4A1549EAD2 /* FSCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3678979A305637A306650F37A518FD2D /* FSCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DC48F8F5F7B03BDF176AFD6A6C286CD /* MDCEdgeTreatment.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E56138A21B356E586D924B2E805E31 /* MDCEdgeTreatment.m */; };
+		919B72E0CE7743838A947288D10AAEA3 /* FSCalendarDynamicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = A41959A7B5C529B1618A795DFA973DDE /* FSCalendarDynamicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91A96B98AD78AAD881AB6389B1368405 /* FSCalendarWeekdayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9530749D2B3985089E7E24A2A0ED0B66 /* FSCalendarWeekdayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9359F19224DA2E55485BDC2CA57919BA /* MDCDraggableViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F7BAA5A888D4FCC9F8D80D00970F10 /* MDCDraggableViewDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		93D3B2EC7BAD20C4F2269A79F8FF972B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6054C3F749D7A5852580E7C66A51F32 /* UIKit.framework */; };
+		9406299AFB3E995D047529C304D4A195 /* MaterialShadowLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A26E7B25E89866328D7B98D17D41753 /* MaterialShadowLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		958CEC0A17E65944F5C8A5500DE7FD00 /* MaterialComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3040A32C5C88FA4934844FD33BBEA1CD /* MaterialComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95D5BD0113DFC666346BDC9EE60E8D8D /* MDCShadowLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AB74DC2F5FD6BCC9CE7A40533202D0C /* MDCShadowLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99E15058FFF8DDEFDE915CFCB913A34B /* MDCShapedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BC29765D2BB2FE38E162618D67360AB /* MDCShapedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DC842FFE7C8DCB96E49F06BF7975DAE /* MDCShapeMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EBFB2F5A5EE4C01599CF6657191A365 /* MDCShapeMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EBA3162E0BFA77C454865EF907619DA /* MDCTriangleEdgeTreatment.h in Headers */ = {isa = PBXBuildFile; fileRef = 872387FEA533AF79C0E0D3107382F9E7 /* MDCTriangleEdgeTreatment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1C152BD9F0F1606B6D90EAC1DF82700 /* MDCBottomSheetTransitionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C54FF3BD348A99223EEA7DAF61A2072 /* MDCBottomSheetTransitionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A27481E0C1947D76287FBB49CE42B06B /* MDCCornerTreatment+CornerTypeInitalizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 050BCDB2C62A39DC133CA13C0A699505 /* MDCCornerTreatment+CornerTypeInitalizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5951056C78026270D265B1A05FB77A0 /* MDCBottomSheetControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 832EE9F9054BE14D004031C1319408DD /* MDCBottomSheetControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A67FEE8FD423E6C4A8EDA4F5DF3A9A80 /* MaterialMathDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9597A870ED574CE6B8E9CE1D2A0276E7 /* MaterialMathDummy.m */; };
+		A8A9071E31DCB75622DA04C3ED40B98F /* MDCCornerTreatment.h in Headers */ = {isa = PBXBuildFile; fileRef = 3974D296360C9CC2B297C5B5E23BAA97 /* MDCCornerTreatment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8F0EC87E16102BC801E1429E3A259AA /* UIViewController+MaterialBottomSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6060646F36E4C554DC3E4549842731CC /* UIViewController+MaterialBottomSheet.m */; };
+		AB70ACFD7D3A7529ACD46C83641E9A87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC3518725ED0791502E99F93252E2EE /* Foundation.framework */; };
+		AB80344757F1BF9A274B8CEE167E3F30 /* MDCBottomSheetPresentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 932F1942EEC5165A31AB98BECE0A636F /* MDCBottomSheetPresentationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABEFEA99DE7320CC9D1D36002D45D83E /* MaterialMath.h in Headers */ = {isa = PBXBuildFile; fileRef = E566BBAF91A15FC9A2252BD2E7BBF8E6 /* MaterialMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACF0F4DE23830413044CAA6AE33B31A7 /* Pods-Caffeine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28429B6A5D78481F2F8418905B58B07C /* Pods-Caffeine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD6206FA289B4651BB747798FD46B7B8 /* MDCPillShapeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 667F2B912AB6E18DD98BA8B0FA311370 /* MDCPillShapeGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B382ED925D539434103D3DA8B1BEA917 /* MDCPathGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 49382F99B92BE5A0F8AFA5575C37D40B /* MDCPathGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4F4CB89BD4FF9D22964FB5EFDD65C0F /* MDCCutCornerTreatment.h in Headers */ = {isa = PBXBuildFile; fileRef = C128F8FBDD7BA188CC53FCD636C899A9 /* MDCCutCornerTreatment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5865268D0C8941A7FD48A91ECE400D6 /* MDCSlantedRectShapeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = A440471457193979E74EF87393E91271 /* MDCSlantedRectShapeGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B63C7F92C82593FA45FE0B2D94E188B4 /* MaterialShadowElevationsDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE73853A77844262AD23E87D29D46DD /* MaterialShadowElevationsDummy.m */; };
+		BA4618552515686F83F7873D094EB189 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1EAD62DA5D58CA4EF748D66011CD37 /* QuartzCore.framework */; };
+		BAA19917A9D659B3AE6AC41D3D4870EE /* MaterialAvailability.h in Headers */ = {isa = PBXBuildFile; fileRef = BCD7D70A8DD620D2DE2EC88B4059906C /* MaterialAvailability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAB06A62079EBC50FC3883D96ABFE581 /* UIColor+MaterialElevation.h in Headers */ = {isa = PBXBuildFile; fileRef = 105AAB78480FA4CE8F26673614B5CAC9 /* UIColor+MaterialElevation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BADEDF3F5C6B8ECA687B3061C65C7E5D /* FSCalendarHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = B07A9F4267113D52E9A574A4BC8E6705 /* FSCalendarHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBF5E9A50B05DA9EA5A46F3838FA31AD /* MDCDraggableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C06EB16C3F6DED8F7E2B8143D0CB860 /* MDCDraggableView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C3C830DA8E913ECBCF786ECB939918B2 /* FSCalendarSeparatorDecorationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F26B953C66A601BD19D27A248E8AC05 /* FSCalendarSeparatorDecorationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C476BDEFC2C6E6CC23C0613BC70FC1B3 /* FSCalendarCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D6DE602D4942551B04C590C92D46DF /* FSCalendarCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8B94A2D7B8639EAE6A57753CB5DB17B /* MDCSheetContainerViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8774EB8E1D3AEB5BE846442E809DB7B6 /* MDCSheetContainerViewDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA73DDDB149041B138811BE98924C594 /* UIApplication+MDCAppExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A2851B49E6DF18F84647926DB27E473C /* UIApplication+MDCAppExtensions.m */; };
+		D192D52340F6B27DA840BE2FA9F49EE9 /* FSCalendarTransitionCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = AA85E8F19872A0CA903FBDE5C6F058B9 /* FSCalendarTransitionCoordinator.m */; };
+		D2DA847A5AFB71B24633A81F490B05EC /* UIColor+MaterialElevation.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E93DA664087A169A0B03AF45251CD6 /* UIColor+MaterialElevation.m */; };
+		D46AD0CE508E5D8A5FC7F184DBBB1EAE /* MDCPathGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E3E6E3A7DDCF8D45C9FEB7FFCA8C02 /* MDCPathGenerator.m */; };
+		D7DFC8407A67FE6F417824532A1351DA /* MaterialShapeLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = CBCAE5AAFF641073069B4B842FCEDD56 /* MaterialShapeLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEA8746B8ACC9D6CE9EBDEA8F8CB2E27 /* FSCalendarCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC52A2BACFA9D9E5A279C682CFB6254 /* FSCalendarCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF469589BC3403B2A47C6AD8B2BBE3DA /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9CD176E991CC22FCE7D7D63BEF4540 /* WebKit.framework */; };
+		E06FD07F020F4CD17109D4EFA1EDD6CE /* MDCCurvedCornerTreatment.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E93A037E4EE4F57AECB8BD3A167775 /* MDCCurvedCornerTreatment.m */; };
+		E56AE3ED48D8E87D1CD9718291E0B5E5 /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E63A8DCF8CCADC9D924C1339BFF16145 /* FSCalendarCollectionView.m */; };
+		E593E1AFC525348B0FA77DFE813F2350 /* MDCCornerTreatment+CornerTypeInitalizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 105FAFD64A34EF4320557B7CF27FEFEB /* MDCCornerTreatment+CornerTypeInitalizer.m */; };
+		E9D24B4691FEF6E79A0F60C321DEF39D /* MDCEdgeTreatment.h in Headers */ = {isa = PBXBuildFile; fileRef = 657339FDD8F3BCE437FD2A327CCE4EEE /* MDCEdgeTreatment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBF5AB7255E72DB80DF0BA04CED4C295 /* MDCShapedShadowLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3D9A35F4F142869769166DFA757DD0 /* MDCShapedShadowLayer.m */; };
+		ED5B7134348145D025C2B7AEC4A896ED /* UIView+MaterialElevationResponding.m in Sources */ = {isa = PBXBuildFile; fileRef = 0942864B314BFCC8CFC186ADCC8710FD /* UIView+MaterialElevationResponding.m */; };
+		F390EE3F6501EA735B348A94C0416E8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC3518725ED0791502E99F93252E2EE /* Foundation.framework */; };
+		F5C699B3399E7BF36A74BB4C56A46FD4 /* MDCBottomSheetTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9843E89C85A0B165CAAB8972403A0E9A /* MDCBottomSheetTransitionController.m */; };
+		F5D92BD96561735261424D962B1582BF /* MDCShapeMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFA3C89FA3F547ED7ADFAB05F5D1CAE /* MDCShapeMediator.m */; };
+		FB71B976745977B39DA0BC1B4766782A /* MDCCurvedRectShapeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2346334B47813A09B1E4079ED6497DA2 /* MDCCurvedRectShapeGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC57BC309245609B0F44DFB1968D979D /* MDCMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 23EB36BF36DF266AC6638A51B22B45BF /* MDCMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCBF6565CA4D10B61B1EBEAA81B4EE6B /* MDCShadowElevations.h in Headers */ = {isa = PBXBuildFile; fileRef = 02666807E897C30246D6737D54A6090D /* MDCShadowElevations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDB26845AA353936661B049BA64ABD25 /* FSCalendarCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = B03C856EFF309F5929CA0D4B7B6C6814 /* FSCalendarCalculator.m */; };
+		FE8C606CC7BB9361045058A446FCAA0A /* MDCCornerTreatment.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBB02F2630C940D2C6E8DAB03FB943 /* MDCCornerTreatment.m */; };
+		FFF8E80B6D3629DB84D475C728EFCA1D /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAE2214F34A79F946704C35C533EE33 /* FSCalendarHeaderView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD1AED75C61FD2610EAF1D64F729FA3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4723B5744013DF08BE3A5FEAA286944;
+			remoteInfo = MaterialComponents;
+		};
+		B6B3CAE36E62899645D318202FFCFDCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13285D54682BEAD805960F9E6EEB9949;
+			remoteInfo = FSCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0125908E7D9A4FCD4C36BD41C5CC7186 /* FSCalendarDelegationProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDelegationProxy.h; path = FSCalendar/FSCalendarDelegationProxy.h; sourceTree = "<group>"; };
+		025ECD622BA2A275974B3CDC56315947 /* MaterialBottomSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialBottomSheet.h; path = components/BottomSheet/src/MaterialBottomSheet.h; sourceTree = "<group>"; };
+		02666807E897C30246D6737D54A6090D /* MDCShadowElevations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCShadowElevations.h; path = components/ShadowElevations/src/MDCShadowElevations.h; sourceTree = "<group>"; };
+		046AFED8995A5C6EB5DE3B522788ED81 /* FSCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FSCalendar.modulemap; sourceTree = "<group>"; };
+		04AB9C3A775D5ABBA580EB9479343D83 /* MaterialShadowElevations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialShadowElevations.h; path = components/ShadowElevations/src/MaterialShadowElevations.h; sourceTree = "<group>"; };
+		050BCDB2C62A39DC133CA13C0A699505 /* MDCCornerTreatment+CornerTypeInitalizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MDCCornerTreatment+CornerTypeInitalizer.h"; path = "components/ShapeLibrary/src/MDCCornerTreatment+CornerTypeInitalizer.h"; sourceTree = "<group>"; };
+		073D3548D58E7B1F4C5E143A4B6C6ADC /* MDCSlantedRectShapeGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSlantedRectShapeGenerator.m; path = components/ShapeLibrary/src/MDCSlantedRectShapeGenerator.m; sourceTree = "<group>"; };
+		08F7BAA5A888D4FCC9F8D80D00970F10 /* MDCDraggableViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCDraggableViewDelegate.h; path = components/BottomSheet/src/private/MDCDraggableViewDelegate.h; sourceTree = "<group>"; };
+		0942864B314BFCC8CFC186ADCC8710FD /* UIView+MaterialElevationResponding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MaterialElevationResponding.m"; path = "components/Elevation/src/UIView+MaterialElevationResponding.m"; sourceTree = "<group>"; };
+		0C0E68FB5B234F37B7A17AFE7D5512DB /* MDCSheetBehavior.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSheetBehavior.m; path = components/BottomSheet/src/private/MDCSheetBehavior.m; sourceTree = "<group>"; };
+		105AAB78480FA4CE8F26673614B5CAC9 /* UIColor+MaterialElevation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+MaterialElevation.h"; path = "components/Elevation/src/UIColor+MaterialElevation.h"; sourceTree = "<group>"; };
+		105FAFD64A34EF4320557B7CF27FEFEB /* MDCCornerTreatment+CornerTypeInitalizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MDCCornerTreatment+CornerTypeInitalizer.m"; path = "components/ShapeLibrary/src/MDCCornerTreatment+CornerTypeInitalizer.m"; sourceTree = "<group>"; };
+		11EF646D1216CEDF2CF98B21E45A8D5B /* UIColor+MaterialBlending.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+MaterialBlending.h"; path = "components/private/Color/src/UIColor+MaterialBlending.h"; sourceTree = "<group>"; };
+		15D6DE602D4942551B04C590C92D46DF /* FSCalendarCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCell.h; path = FSCalendar/FSCalendarCell.h; sourceTree = "<group>"; };
+		1695D8FF9D0998FAAD1D4B6344DE6129 /* MaterialApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialApplication.h; path = components/private/Application/src/MaterialApplication.h; sourceTree = "<group>"; };
+		1AB74DC2F5FD6BCC9CE7A40533202D0C /* MDCShadowLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCShadowLayer.h; path = components/ShadowLayer/src/MDCShadowLayer.h; sourceTree = "<group>"; };
+		1B64B7E16E7DF324EBD9A17CFBC2E663 /* FSCalendarConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarConstants.h; path = FSCalendar/FSCalendarConstants.h; sourceTree = "<group>"; };
+		1BB09D10F024FFB9FEABD4BD9EC1041B /* FSCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FSCalendar-Info.plist"; sourceTree = "<group>"; };
+		1E913CAF2E257F2D19C4FDD55AB44B68 /* MaterialComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MaterialComponents-dummy.m"; sourceTree = "<group>"; };
+		2346334B47813A09B1E4079ED6497DA2 /* MDCCurvedRectShapeGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCCurvedRectShapeGenerator.h; path = components/ShapeLibrary/src/MDCCurvedRectShapeGenerator.h; sourceTree = "<group>"; };
+		23EB36BF36DF266AC6638A51B22B45BF /* MDCMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCMath.h; path = components/private/Math/src/MDCMath.h; sourceTree = "<group>"; };
+		24CB4ECF957BAB738130D5D6F3EFE0DF /* UIColor+MaterialDynamic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+MaterialDynamic.h"; path = "components/private/Color/src/UIColor+MaterialDynamic.h"; sourceTree = "<group>"; };
+		25D0771FECE3AC4D2DAEF099695FA39C /* MaterialComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MaterialComponents.debug.xcconfig; sourceTree = "<group>"; };
+		25E3E6E3A7DDCF8D45C9FEB7FFCA8C02 /* MDCPathGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCPathGenerator.m; path = components/Shapes/src/MDCPathGenerator.m; sourceTree = "<group>"; };
+		28429B6A5D78481F2F8418905B58B07C /* Pods-Caffeine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Caffeine-umbrella.h"; sourceTree = "<group>"; };
+		2AEBB02F2630C940D2C6E8DAB03FB943 /* MDCCornerTreatment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCCornerTreatment.m; path = components/Shapes/src/MDCCornerTreatment.m; sourceTree = "<group>"; };
+		2EBFB2F5A5EE4C01599CF6657191A365 /* MDCShapeMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCShapeMediator.h; path = components/Shapes/src/MDCShapeMediator.h; sourceTree = "<group>"; };
+		2F1D76E49C772146F5931B855824D013 /* MDCDraggableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCDraggableView.m; path = components/BottomSheet/src/private/MDCDraggableView.m; sourceTree = "<group>"; };
+		2F8114A5092C310E22DE50AB0CED7FDE /* MaterialComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MaterialComponents.release.xcconfig; sourceTree = "<group>"; };
+		3040A32C5C88FA4934844FD33BBEA1CD /* MaterialComponents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialComponents-umbrella.h"; sourceTree = "<group>"; };
+		34627445616C9629AFA6595FDF4E28AB /* MaterialComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MaterialComponents.modulemap; sourceTree = "<group>"; };
+		3626103E73CF374455B4567932F7EB57 /* MDCCurvedRectShapeGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCCurvedRectShapeGenerator.m; path = components/ShapeLibrary/src/MDCCurvedRectShapeGenerator.m; sourceTree = "<group>"; };
+		3678979A305637A306650F37A518FD2D /* FSCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCalendar-umbrella.h"; sourceTree = "<group>"; };
+		3756367D8464398DB102609DB5F1F7D2 /* MDCKeyboardWatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCKeyboardWatcher.m; path = components/private/KeyboardWatcher/src/MDCKeyboardWatcher.m; sourceTree = "<group>"; };
+		38750272F8B08F8B7E63B0959CFE3D33 /* FSCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSCalendar.debug.xcconfig; sourceTree = "<group>"; };
+		3974D296360C9CC2B297C5B5E23BAA97 /* MDCCornerTreatment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCCornerTreatment.h; path = components/Shapes/src/MDCCornerTreatment.h; sourceTree = "<group>"; };
+		3EB0B57C80B1FA813EC6577415BA7424 /* Pods-Caffeine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Caffeine.modulemap"; sourceTree = "<group>"; };
+		4306AA63C0685005E9C0FE76B7E6678A /* UIColor+MaterialBlending.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MaterialBlending.m"; path = "components/private/Color/src/UIColor+MaterialBlending.m"; sourceTree = "<group>"; };
+		434FA17148D3C6FA1652942126C809E6 /* FSCalendarCollectionViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionViewLayout.m; path = FSCalendar/FSCalendarCollectionViewLayout.m; sourceTree = "<group>"; };
+		473CC10C33EFF03068C3C56F3C43D24B /* MaterialShapes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialShapes.h; path = components/Shapes/src/MaterialShapes.h; sourceTree = "<group>"; };
+		47CBE6C5057C0695B1C530D387328CB6 /* MDCElevatable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCElevatable.h; path = components/Elevation/src/MDCElevatable.h; sourceTree = "<group>"; };
+		49382F99B92BE5A0F8AFA5575C37D40B /* MDCPathGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCPathGenerator.h; path = components/Shapes/src/MDCPathGenerator.h; sourceTree = "<group>"; };
+		494CC5574080259FAE91499599AB5A1A /* MDCSheetContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSheetContainerView.m; path = components/BottomSheet/src/private/MDCSheetContainerView.m; sourceTree = "<group>"; };
+		4A26E7B25E89866328D7B98D17D41753 /* MaterialShadowLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialShadowLayer.h; path = components/ShadowLayer/src/MaterialShadowLayer.h; sourceTree = "<group>"; };
+		4CC7A56A9BB0AC68D9BF3228390E5397 /* Pods-Caffeine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Caffeine.release.xcconfig"; sourceTree = "<group>"; };
+		4E6CEE62F6B2FCD58F936D30C4657D18 /* FSCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FSCalendar-prefix.pch"; sourceTree = "<group>"; };
+		5049F8F970F0C9D20D8941FA2D14CD28 /* Pods-Caffeine-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Caffeine-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5370C4E433F173CA0D522E9BCEBB1CFA /* FSCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FSCalendar-dummy.m"; sourceTree = "<group>"; };
+		5499F2249F2415410C84334E5A1EE95C /* FSCalendarCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionViewLayout.h; path = FSCalendar/FSCalendarCollectionViewLayout.h; sourceTree = "<group>"; };
+		55264C952736350D0354445D5A2E96BF /* MDCShapedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCShapedView.m; path = components/Shapes/src/MDCShapedView.m; sourceTree = "<group>"; };
+		57590F327DCC349D170D5E454B389468 /* MaterialComponents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialComponents-prefix.pch"; sourceTree = "<group>"; };
+		5B1EAD62DA5D58CA4EF748D66011CD37 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		5B32D72EB779E99EA87C7FCA4BE78A50 /* MDCBottomSheetController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCBottomSheetController.m; path = components/BottomSheet/src/MDCBottomSheetController.m; sourceTree = "<group>"; };
+		5C06EB16C3F6DED8F7E2B8143D0CB860 /* MDCDraggableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCDraggableView.h; path = components/BottomSheet/src/private/MDCDraggableView.h; sourceTree = "<group>"; };
+		5DC73543EC8A3D187F3E8B53467A363D /* Pods_Caffeine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Caffeine.framework; path = "Pods-Caffeine.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E75025E42A7EF9DB4B758459445C176 /* FSCalendarWeekdayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarWeekdayView.m; path = FSCalendar/FSCalendarWeekdayView.m; sourceTree = "<group>"; };
+		5EC7981D780A325D92432ABEEC4424EC /* MDCShapedShadowLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCShapedShadowLayer.h; path = components/Shapes/src/MDCShapedShadowLayer.h; sourceTree = "<group>"; };
+		5F26B953C66A601BD19D27A248E8AC05 /* FSCalendarSeparatorDecorationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarSeparatorDecorationView.h; path = FSCalendar/FSCalendarSeparatorDecorationView.h; sourceTree = "<group>"; };
+		60063EDAE441C47C47780DCAD695CF94 /* FSCalendarConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarConstants.m; path = FSCalendar/FSCalendarConstants.m; sourceTree = "<group>"; };
+		6060646F36E4C554DC3E4549842731CC /* UIViewController+MaterialBottomSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MaterialBottomSheet.m"; path = "components/BottomSheet/src/UIViewController+MaterialBottomSheet.m"; sourceTree = "<group>"; };
+		62DBF1EDCC1A98F91456473B1940817F /* FSCalendarAppearance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarAppearance.h; path = FSCalendar/FSCalendarAppearance.h; sourceTree = "<group>"; };
+		6525D2DC6F6137D103B96854A911BA88 /* MDCSheetContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSheetContainerView.h; path = components/BottomSheet/src/private/MDCSheetContainerView.h; sourceTree = "<group>"; };
+		657339FDD8F3BCE437FD2A327CCE4EEE /* MDCEdgeTreatment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCEdgeTreatment.h; path = components/Shapes/src/MDCEdgeTreatment.h; sourceTree = "<group>"; };
+		667F2B912AB6E18DD98BA8B0FA311370 /* MDCPillShapeGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCPillShapeGenerator.h; path = components/ShapeLibrary/src/MDCPillShapeGenerator.h; sourceTree = "<group>"; };
+		6BC3518725ED0791502E99F93252E2EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6E89F912ADF4220CA16E70FB1A23FBF0 /* FSCalendarDelegationFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDelegationFactory.h; path = FSCalendar/FSCalendarDelegationFactory.h; sourceTree = "<group>"; };
+		6F20EC0DEF408EB12AB27C734130B0C8 /* FSCalendarSeparatorDecorationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarSeparatorDecorationView.m; path = FSCalendar/FSCalendarSeparatorDecorationView.m; sourceTree = "<group>"; };
+		6F524FC724E8EB9A26C4456BD048A113 /* FSCalendarExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarExtensions.m; path = FSCalendar/FSCalendarExtensions.m; sourceTree = "<group>"; };
+		6FA9C730048FF396E218152955E2A4F3 /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarStickyHeader.m; path = FSCalendar/FSCalendarStickyHeader.m; sourceTree = "<group>"; };
+		718686C9F09A4B6C2B69FD4004D60515 /* Pods-Caffeine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Caffeine-dummy.m"; sourceTree = "<group>"; };
+		72F15BFD09A4A5633FAE4A213D6CC230 /* MaterialColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialColor.h; path = components/private/Color/src/MaterialColor.h; sourceTree = "<group>"; };
+		77BAA161FF422965E7CEE6ADBE7CDF1C /* MDCCutCornerTreatment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCCutCornerTreatment.m; path = components/ShapeLibrary/src/MDCCutCornerTreatment.m; sourceTree = "<group>"; };
+		7E5D467CFBF2F615D2CF9481DB8958F9 /* Pods-Caffeine-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Caffeine-Info.plist"; sourceTree = "<group>"; };
+		832EE9F9054BE14D004031C1319408DD /* MDCBottomSheetControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCBottomSheetControllerDelegate.h; path = components/BottomSheet/src/MDCBottomSheetControllerDelegate.h; sourceTree = "<group>"; };
+		83E93DA664087A169A0B03AF45251CD6 /* UIColor+MaterialElevation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MaterialElevation.m"; path = "components/Elevation/src/UIColor+MaterialElevation.m"; sourceTree = "<group>"; };
+		872387FEA533AF79C0E0D3107382F9E7 /* MDCTriangleEdgeTreatment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTriangleEdgeTreatment.h; path = components/ShapeLibrary/src/MDCTriangleEdgeTreatment.h; sourceTree = "<group>"; };
+		8774EB8E1D3AEB5BE846442E809DB7B6 /* MDCSheetContainerViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSheetContainerViewDelegate.h; path = components/BottomSheet/src/private/MDCSheetContainerViewDelegate.h; sourceTree = "<group>"; };
+		8A8CED52AE1841A38138ABA0F3E52543 /* MaterialKeyboardWatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialKeyboardWatcher.h; path = components/private/KeyboardWatcher/src/MaterialKeyboardWatcher.h; sourceTree = "<group>"; };
+		8A99E0F703F177CC8DBC756296EBFBE8 /* MDCElevationOverriding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCElevationOverriding.h; path = components/Elevation/src/MDCElevationOverriding.h; sourceTree = "<group>"; };
+		8B9CD176E991CC22FCE7D7D63BEF4540 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		8C3498CD71A8B603C5C1AA8E52CA5C6B /* UIView+MaterialElevationResponding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MaterialElevationResponding.h"; path = "components/Elevation/src/UIView+MaterialElevationResponding.h"; sourceTree = "<group>"; };
+		8CC449EC9989C1B8EA966FCDAD7955E9 /* FSCalendar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendar.m; path = FSCalendar/FSCalendar.m; sourceTree = "<group>"; };
+		8F030051F60D3255129C1F15E0DB1FC6 /* MDCPillShapeGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCPillShapeGenerator.m; path = components/ShapeLibrary/src/MDCPillShapeGenerator.m; sourceTree = "<group>"; };
+		8FC581757CA3D383E9800D9634D81EFA /* MDCRoundedCornerTreatment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCRoundedCornerTreatment.m; path = components/ShapeLibrary/src/MDCRoundedCornerTreatment.m; sourceTree = "<group>"; };
+		932F1942EEC5165A31AB98BECE0A636F /* MDCBottomSheetPresentationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCBottomSheetPresentationController.h; path = components/BottomSheet/src/MDCBottomSheetPresentationController.h; sourceTree = "<group>"; };
+		95209B8BB966524BC76543F99C75F5FE /* FSCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FSCalendar.framework; path = FSCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9530749D2B3985089E7E24A2A0ED0B66 /* FSCalendarWeekdayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarWeekdayView.h; path = FSCalendar/FSCalendarWeekdayView.h; sourceTree = "<group>"; };
+		9597A870ED574CE6B8E9CE1D2A0276E7 /* MaterialMathDummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MaterialMathDummy.m; path = components/private/Math/src/MaterialMathDummy.m; sourceTree = "<group>"; };
+		971D804D63C875889D1937DBF1520D31 /* MDCBottomSheetController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCBottomSheetController.h; path = components/BottomSheet/src/MDCBottomSheetController.h; sourceTree = "<group>"; };
+		9843E89C85A0B165CAAB8972403A0E9A /* MDCBottomSheetTransitionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCBottomSheetTransitionController.m; path = components/BottomSheet/src/MDCBottomSheetTransitionController.m; sourceTree = "<group>"; };
+		992D9F90A2DFE42D8FB258BD9332E039 /* MDCRectangleShapeGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCRectangleShapeGenerator.m; path = components/Shapes/src/MDCRectangleShapeGenerator.m; sourceTree = "<group>"; };
+		9BC29765D2BB2FE38E162618D67360AB /* MDCShapedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCShapedView.h; path = components/Shapes/src/MDCShapedView.h; sourceTree = "<group>"; };
+		9C54FF3BD348A99223EEA7DAF61A2072 /* MDCBottomSheetTransitionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCBottomSheetTransitionController.h; path = components/BottomSheet/src/MDCBottomSheetTransitionController.h; sourceTree = "<group>"; };
+		9D259C00778933C629B10CFE17707928 /* FSCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FSCalendar.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E49E8A21247172A7D8A10DE246B4835 /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarStickyHeader.h; path = FSCalendar/FSCalendarStickyHeader.h; sourceTree = "<group>"; };
+		A10DF8CF8BE28E56EE8D7CCAB0035879 /* MDCCurvedCornerTreatment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCCurvedCornerTreatment.h; path = components/ShapeLibrary/src/MDCCurvedCornerTreatment.h; sourceTree = "<group>"; };
+		A12E920DD89257A60546417769944989 /* MaterialComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MaterialComponents-Info.plist"; sourceTree = "<group>"; };
+		A273CF9B5350DBAFFB6655A5721B919D /* MDCBottomSheetPresentationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCBottomSheetPresentationController.m; path = components/BottomSheet/src/MDCBottomSheetPresentationController.m; sourceTree = "<group>"; };
+		A2851B49E6DF18F84647926DB27E473C /* UIApplication+MDCAppExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+MDCAppExtensions.m"; path = "components/private/Application/src/UIApplication+MDCAppExtensions.m"; sourceTree = "<group>"; };
+		A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MaterialComponents.framework; path = MaterialComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A41959A7B5C529B1618A795DFA973DDE /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarDynamicHeader.h; path = FSCalendar/FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
+		A440471457193979E74EF87393E91271 /* MDCSlantedRectShapeGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSlantedRectShapeGenerator.h; path = components/ShapeLibrary/src/MDCSlantedRectShapeGenerator.h; sourceTree = "<group>"; };
+		A5431C8700230EF022796184C7DFBF00 /* FSCalendarExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarExtensions.h; path = FSCalendar/FSCalendarExtensions.h; sourceTree = "<group>"; };
+		A579C29EB138C19B5E79A950C5F2F59B /* MDCShadowLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCShadowLayer.m; path = components/ShadowLayer/src/MDCShadowLayer.m; sourceTree = "<group>"; };
+		A5BC7F5140419F4FA8B50AE93ABCDCC0 /* Pods-Caffeine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Caffeine.debug.xcconfig"; sourceTree = "<group>"; };
+		A9E56138A21B356E586D924B2E805E31 /* MDCEdgeTreatment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCEdgeTreatment.m; path = components/Shapes/src/MDCEdgeTreatment.m; sourceTree = "<group>"; };
+		AA85E8F19872A0CA903FBDE5C6F058B9 /* FSCalendarTransitionCoordinator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarTransitionCoordinator.m; path = FSCalendar/FSCalendarTransitionCoordinator.m; sourceTree = "<group>"; };
+		AAFA74472CCC109821980A25F361EC65 /* UIApplication+MDCAppExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+MDCAppExtensions.h"; path = "components/private/Application/src/UIApplication+MDCAppExtensions.h"; sourceTree = "<group>"; };
+		AF793637DC2334F72180E46C1260B057 /* FSCalendarTransitionCoordinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarTransitionCoordinator.h; path = FSCalendar/FSCalendarTransitionCoordinator.h; sourceTree = "<group>"; };
+		B03C856EFF309F5929CA0D4B7B6C6814 /* FSCalendarCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCalculator.m; path = FSCalendar/FSCalendarCalculator.m; sourceTree = "<group>"; };
+		B07A9F4267113D52E9A574A4BC8E6705 /* FSCalendarHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarHeaderView.h; path = FSCalendar/FSCalendarHeaderView.h; sourceTree = "<group>"; };
+		B4E5E40D440B20B8986105403092FBA3 /* FSCalendarCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCell.m; path = FSCalendar/FSCalendarCell.m; sourceTree = "<group>"; };
+		B5961E0B3523DBE7A3B9D43BCD0B27DD /* MDCTriangleEdgeTreatment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTriangleEdgeTreatment.m; path = components/ShapeLibrary/src/MDCTriangleEdgeTreatment.m; sourceTree = "<group>"; };
+		B6054C3F749D7A5852580E7C66A51F32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B7B79E0C2C8F99F5E00A822694253311 /* UIColor+MaterialDynamic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MaterialDynamic.m"; path = "components/private/Color/src/UIColor+MaterialDynamic.m"; sourceTree = "<group>"; };
+		B7C6742E6311CB67EFDA41C0FD71F2E2 /* FSCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendar.h; path = FSCalendar/FSCalendar.h; sourceTree = "<group>"; };
+		B8A80398DAC4456265BE7AA65E0A7DAC /* Pods-Caffeine-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Caffeine-acknowledgements.plist"; sourceTree = "<group>"; };
+		BCD7D70A8DD620D2DE2EC88B4059906C /* MaterialAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialAvailability.h; path = components/Availability/src/MaterialAvailability.h; sourceTree = "<group>"; };
+		BEC52A2BACFA9D9E5A279C682CFB6254 /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCollectionView.h; path = FSCalendar/FSCalendarCollectionView.h; sourceTree = "<group>"; };
+		C128F8FBDD7BA188CC53FCD636C899A9 /* MDCCutCornerTreatment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCCutCornerTreatment.h; path = components/ShapeLibrary/src/MDCCutCornerTreatment.h; sourceTree = "<group>"; };
+		C39786825C732645A92E90D2DF57A812 /* MDCAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCAvailability.h; path = components/Availability/src/MDCAvailability.h; sourceTree = "<group>"; };
+		CBCAE5AAFF641073069B4B842FCEDD56 /* MaterialShapeLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialShapeLibrary.h; path = components/ShapeLibrary/src/MaterialShapeLibrary.h; sourceTree = "<group>"; };
+		CCD9C8FA910F8222F7F2501DB46CC6A4 /* UIViewController+MaterialBottomSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MaterialBottomSheet.h"; path = "components/BottomSheet/src/UIViewController+MaterialBottomSheet.h"; sourceTree = "<group>"; };
+		CE406BD4A77929A5098F6E8519C39185 /* MDCSheetState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSheetState.h; path = components/BottomSheet/src/MDCSheetState.h; sourceTree = "<group>"; };
+		CEB2A6D0B33E0DC495A7561A91B1144A /* FSCalendarDelegationFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationFactory.m; path = FSCalendar/FSCalendarDelegationFactory.m; sourceTree = "<group>"; };
+		D18376845CB6CF004205E73B19108342 /* MDCRoundedCornerTreatment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCRoundedCornerTreatment.h; path = components/ShapeLibrary/src/MDCRoundedCornerTreatment.h; sourceTree = "<group>"; };
+		D3E93A037E4EE4F57AECB8BD3A167775 /* MDCCurvedCornerTreatment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCCurvedCornerTreatment.m; path = components/ShapeLibrary/src/MDCCurvedCornerTreatment.m; sourceTree = "<group>"; };
+		D535F22D4F33915BCCD6886AA3404B8E /* MDCShapeGenerating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCShapeGenerating.h; path = components/Shapes/src/MDCShapeGenerating.h; sourceTree = "<group>"; };
+		D5599F633EA1052CBF5284672A6914CC /* MDCKeyboardWatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCKeyboardWatcher.h; path = components/private/KeyboardWatcher/src/MDCKeyboardWatcher.h; sourceTree = "<group>"; };
+		D75B2081914933AAA06EA80521DA9214 /* Pods-Caffeine-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Caffeine-frameworks.sh"; sourceTree = "<group>"; };
+		D75C2691DB0BC78B97EC01713DFFE772 /* MDCRectangleShapeGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCRectangleShapeGenerator.h; path = components/Shapes/src/MDCRectangleShapeGenerator.h; sourceTree = "<group>"; };
+		DB3D9A35F4F142869769166DFA757DD0 /* MDCShapedShadowLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCShapedShadowLayer.m; path = components/Shapes/src/MDCShapedShadowLayer.m; sourceTree = "<group>"; };
+		DEAE2214F34A79F946704C35C533EE33 /* FSCalendarHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarHeaderView.m; path = FSCalendar/FSCalendarHeaderView.m; sourceTree = "<group>"; };
+		E2B51A08EBED2F545CFB49F8EF1C6F81 /* MaterialElevation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialElevation.h; path = components/Elevation/src/MaterialElevation.h; sourceTree = "<group>"; };
+		E3689E2FD1E37A9E95CB58DD36F8C3A0 /* MDCBottomSheetPresentationControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCBottomSheetPresentationControllerDelegate.h; path = components/BottomSheet/src/MDCBottomSheetPresentationControllerDelegate.h; sourceTree = "<group>"; };
+		E566BBAF91A15FC9A2252BD2E7BBF8E6 /* MaterialMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialMath.h; path = components/private/Math/src/MaterialMath.h; sourceTree = "<group>"; };
+		E63A8DCF8CCADC9D924C1339BFF16145 /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarCollectionView.m; path = FSCalendar/FSCalendarCollectionView.m; sourceTree = "<group>"; };
+		E66C7E7E292017E2CE7786ECCACDB057 /* MDCSheetBehavior.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSheetBehavior.h; path = components/BottomSheet/src/private/MDCSheetBehavior.h; sourceTree = "<group>"; };
+		EA98DA2E5BD1BB8A76570700C39A5DA6 /* FSCalendarAppearance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarAppearance.m; path = FSCalendar/FSCalendarAppearance.m; sourceTree = "<group>"; };
+		EFE73853A77844262AD23E87D29D46DD /* MaterialShadowElevationsDummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MaterialShadowElevationsDummy.m; path = components/ShadowElevations/src/MaterialShadowElevationsDummy.m; sourceTree = "<group>"; };
+		F1F3527E95640CAC051267AD119694CD /* FSCalendarDelegationProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FSCalendarDelegationProxy.m; path = FSCalendar/FSCalendarDelegationProxy.m; sourceTree = "<group>"; };
+		FA3023A6373313EC4724F75ADC7BFDE1 /* FSCalendarCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FSCalendarCalculator.h; path = FSCalendar/FSCalendarCalculator.h; sourceTree = "<group>"; };
+		FDFA3C89FA3F547ED7ADFAB05F5D1CAE /* MDCShapeMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCShapeMediator.m; path = components/Shapes/src/MDCShapeMediator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		548B9FF411F539CCCE960C51FA012752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB70ACFD7D3A7529ACD46C83641E9A87 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93B0F6F7A24587A13A4DC4628DF35C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F390EE3F6501EA735B348A94C0416E8E /* Foundation.framework in Frameworks */,
+				BA4618552515686F83F7873D094EB189 /* QuartzCore.framework in Frameworks */,
+				93D3B2EC7BAD20C4F2269A79F8FF972B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED3178971CB04BB3492FDF570011C51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83BA64B1B6C5CB7E0F0FDF3FB8AD734F /* Foundation.framework in Frameworks */,
+				DF469589BC3403B2A47C6AD8B2BBE3DA /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		111200309510330EAABB98FA6B05086E /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				473CC10C33EFF03068C3C56F3C43D24B /* MaterialShapes.h */,
+				3974D296360C9CC2B297C5B5E23BAA97 /* MDCCornerTreatment.h */,
+				2AEBB02F2630C940D2C6E8DAB03FB943 /* MDCCornerTreatment.m */,
+				657339FDD8F3BCE437FD2A327CCE4EEE /* MDCEdgeTreatment.h */,
+				A9E56138A21B356E586D924B2E805E31 /* MDCEdgeTreatment.m */,
+				49382F99B92BE5A0F8AFA5575C37D40B /* MDCPathGenerator.h */,
+				25E3E6E3A7DDCF8D45C9FEB7FFCA8C02 /* MDCPathGenerator.m */,
+				D75C2691DB0BC78B97EC01713DFFE772 /* MDCRectangleShapeGenerator.h */,
+				992D9F90A2DFE42D8FB258BD9332E039 /* MDCRectangleShapeGenerator.m */,
+				5EC7981D780A325D92432ABEEC4424EC /* MDCShapedShadowLayer.h */,
+				DB3D9A35F4F142869769166DFA757DD0 /* MDCShapedShadowLayer.m */,
+				9BC29765D2BB2FE38E162618D67360AB /* MDCShapedView.h */,
+				55264C952736350D0354445D5A2E96BF /* MDCShapedView.m */,
+				D535F22D4F33915BCCD6886AA3404B8E /* MDCShapeGenerating.h */,
+				2EBFB2F5A5EE4C01599CF6657191A365 /* MDCShapeMediator.h */,
+				FDFA3C89FA3F547ED7ADFAB05F5D1CAE /* MDCShapeMediator.m */,
+			);
+			name = Shapes;
+			sourceTree = "<group>";
+		};
+		3115E8A19039E406324668B506CAF959 /* MaterialComponents */ = {
+			isa = PBXGroup;
+			children = (
+				5FFF669D369F48982D7EF15A0F70E003 /* Availability */,
+				E195BD8328622E0DE65E2B3398FFA70C /* BottomSheet */,
+				F566A94078D93F474FFB95F257D2F517 /* Elevation */,
+				7D7BCD038DF126ABF5EB699E096D8751 /* private */,
+				CCD316E30694AFB5176D2491305648E6 /* ShadowElevations */,
+				AC23D45966829D42688335E8C09A316C /* ShadowLayer */,
+				5DDB78623DCF5227FC9B2FDBB55210CA /* ShapeLibrary */,
+				111200309510330EAABB98FA6B05086E /* Shapes */,
+				3297C64A4A11F85B147A9F2BD6F21A14 /* Support Files */,
+			);
+			name = MaterialComponents;
+			path = MaterialComponents;
+			sourceTree = "<group>";
+		};
+		3297C64A4A11F85B147A9F2BD6F21A14 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34627445616C9629AFA6595FDF4E28AB /* MaterialComponents.modulemap */,
+				1E913CAF2E257F2D19C4FDD55AB44B68 /* MaterialComponents-dummy.m */,
+				A12E920DD89257A60546417769944989 /* MaterialComponents-Info.plist */,
+				57590F327DCC349D170D5E454B389468 /* MaterialComponents-prefix.pch */,
+				3040A32C5C88FA4934844FD33BBEA1CD /* MaterialComponents-umbrella.h */,
+				25D0771FECE3AC4D2DAEF099695FA39C /* MaterialComponents.debug.xcconfig */,
+				2F8114A5092C310E22DE50AB0CED7FDE /* MaterialComponents.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MaterialComponents";
+			sourceTree = "<group>";
+		};
+		5BEBB1146E4A10CBAEADA6B79FE66EBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95209B8BB966524BC76543F99C75F5FE /* FSCalendar.framework */,
+				A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents.framework */,
+				5DC73543EC8A3D187F3E8B53467A363D /* Pods_Caffeine.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DDB78623DCF5227FC9B2FDBB55210CA /* ShapeLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				CBCAE5AAFF641073069B4B842FCEDD56 /* MaterialShapeLibrary.h */,
+				050BCDB2C62A39DC133CA13C0A699505 /* MDCCornerTreatment+CornerTypeInitalizer.h */,
+				105FAFD64A34EF4320557B7CF27FEFEB /* MDCCornerTreatment+CornerTypeInitalizer.m */,
+				A10DF8CF8BE28E56EE8D7CCAB0035879 /* MDCCurvedCornerTreatment.h */,
+				D3E93A037E4EE4F57AECB8BD3A167775 /* MDCCurvedCornerTreatment.m */,
+				2346334B47813A09B1E4079ED6497DA2 /* MDCCurvedRectShapeGenerator.h */,
+				3626103E73CF374455B4567932F7EB57 /* MDCCurvedRectShapeGenerator.m */,
+				C128F8FBDD7BA188CC53FCD636C899A9 /* MDCCutCornerTreatment.h */,
+				77BAA161FF422965E7CEE6ADBE7CDF1C /* MDCCutCornerTreatment.m */,
+				667F2B912AB6E18DD98BA8B0FA311370 /* MDCPillShapeGenerator.h */,
+				8F030051F60D3255129C1F15E0DB1FC6 /* MDCPillShapeGenerator.m */,
+				D18376845CB6CF004205E73B19108342 /* MDCRoundedCornerTreatment.h */,
+				8FC581757CA3D383E9800D9634D81EFA /* MDCRoundedCornerTreatment.m */,
+				A440471457193979E74EF87393E91271 /* MDCSlantedRectShapeGenerator.h */,
+				073D3548D58E7B1F4C5E143A4B6C6ADC /* MDCSlantedRectShapeGenerator.m */,
+				872387FEA533AF79C0E0D3107382F9E7 /* MDCTriangleEdgeTreatment.h */,
+				B5961E0B3523DBE7A3B9D43BCD0B27DD /* MDCTriangleEdgeTreatment.m */,
+			);
+			name = ShapeLibrary;
+			sourceTree = "<group>";
+		};
+		5FFF669D369F48982D7EF15A0F70E003 /* Availability */ = {
+			isa = PBXGroup;
+			children = (
+				BCD7D70A8DD620D2DE2EC88B4059906C /* MaterialAvailability.h */,
+				C39786825C732645A92E90D2DF57A812 /* MDCAvailability.h */,
+			);
+			name = Availability;
+			sourceTree = "<group>";
+		};
+		61B62E82B1B1B472076460EDFAD1C9F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C00AF1CCD33C6D5C451CE823F604E613 /* FSCalendar */,
+				3115E8A19039E406324668B506CAF959 /* MaterialComponents */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A04ABBE63D786018A44CA4A9C68113B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1695D8FF9D0998FAAD1D4B6344DE6129 /* MaterialApplication.h */,
+				AAFA74472CCC109821980A25F361EC65 /* UIApplication+MDCAppExtensions.h */,
+				A2851B49E6DF18F84647926DB27E473C /* UIApplication+MDCAppExtensions.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		7D7BCD038DF126ABF5EB699E096D8751 /* private */ = {
+			isa = PBXGroup;
+			children = (
+				7A04ABBE63D786018A44CA4A9C68113B /* Application */,
+				84E842DC76667AB5769135497F5D482C /* Color */,
+				B2FEBCE27621D57E79A0CC8C87D30888 /* KeyboardWatcher */,
+				9DCF14C7634D1CEA50EAD0C73A65E851 /* Math */,
+			);
+			name = private;
+			sourceTree = "<group>";
+		};
+		84E842DC76667AB5769135497F5D482C /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				72F15BFD09A4A5633FAE4A213D6CC230 /* MaterialColor.h */,
+				11EF646D1216CEDF2CF98B21E45A8D5B /* UIColor+MaterialBlending.h */,
+				4306AA63C0685005E9C0FE76B7E6678A /* UIColor+MaterialBlending.m */,
+				24CB4ECF957BAB738130D5D6F3EFE0DF /* UIColor+MaterialDynamic.h */,
+				B7B79E0C2C8F99F5E00A822694253311 /* UIColor+MaterialDynamic.m */,
+			);
+			name = Color;
+			sourceTree = "<group>";
+		};
+		9DCF14C7634D1CEA50EAD0C73A65E851 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				E566BBAF91A15FC9A2252BD2E7BBF8E6 /* MaterialMath.h */,
+				9597A870ED574CE6B8E9CE1D2A0276E7 /* MaterialMathDummy.m */,
+				23EB36BF36DF266AC6638A51B22B45BF /* MDCMath.h */,
+			);
+			name = Math;
+			sourceTree = "<group>";
+		};
+		AC23D45966829D42688335E8C09A316C /* ShadowLayer */ = {
+			isa = PBXGroup;
+			children = (
+				4A26E7B25E89866328D7B98D17D41753 /* MaterialShadowLayer.h */,
+				1AB74DC2F5FD6BCC9CE7A40533202D0C /* MDCShadowLayer.h */,
+				A579C29EB138C19B5E79A950C5F2F59B /* MDCShadowLayer.m */,
+			);
+			name = ShadowLayer;
+			sourceTree = "<group>";
+		};
+		B031D771344F4DDB23FBBCB210AC1C5C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				046AFED8995A5C6EB5DE3B522788ED81 /* FSCalendar.modulemap */,
+				5370C4E433F173CA0D522E9BCEBB1CFA /* FSCalendar-dummy.m */,
+				1BB09D10F024FFB9FEABD4BD9EC1041B /* FSCalendar-Info.plist */,
+				4E6CEE62F6B2FCD58F936D30C4657D18 /* FSCalendar-prefix.pch */,
+				3678979A305637A306650F37A518FD2D /* FSCalendar-umbrella.h */,
+				38750272F8B08F8B7E63B0959CFE3D33 /* FSCalendar.debug.xcconfig */,
+				9D259C00778933C629B10CFE17707928 /* FSCalendar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FSCalendar";
+			sourceTree = "<group>";
+		};
+		B2FEBCE27621D57E79A0CC8C87D30888 /* KeyboardWatcher */ = {
+			isa = PBXGroup;
+			children = (
+				8A8CED52AE1841A38138ABA0F3E52543 /* MaterialKeyboardWatcher.h */,
+				D5599F633EA1052CBF5284672A6914CC /* MDCKeyboardWatcher.h */,
+				3756367D8464398DB102609DB5F1F7D2 /* MDCKeyboardWatcher.m */,
+			);
+			name = KeyboardWatcher;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4FF81C57BD7F145A046F6589E1EE456 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDEB329CDC12D74B82537EE60A6B78BB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F015CAE74FB16811FD254D066B0DA55D /* Pods-Caffeine */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C00AF1CCD33C6D5C451CE823F604E613 /* FSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				B7C6742E6311CB67EFDA41C0FD71F2E2 /* FSCalendar.h */,
+				8CC449EC9989C1B8EA966FCDAD7955E9 /* FSCalendar.m */,
+				62DBF1EDCC1A98F91456473B1940817F /* FSCalendarAppearance.h */,
+				EA98DA2E5BD1BB8A76570700C39A5DA6 /* FSCalendarAppearance.m */,
+				FA3023A6373313EC4724F75ADC7BFDE1 /* FSCalendarCalculator.h */,
+				B03C856EFF309F5929CA0D4B7B6C6814 /* FSCalendarCalculator.m */,
+				15D6DE602D4942551B04C590C92D46DF /* FSCalendarCell.h */,
+				B4E5E40D440B20B8986105403092FBA3 /* FSCalendarCell.m */,
+				BEC52A2BACFA9D9E5A279C682CFB6254 /* FSCalendarCollectionView.h */,
+				E63A8DCF8CCADC9D924C1339BFF16145 /* FSCalendarCollectionView.m */,
+				5499F2249F2415410C84334E5A1EE95C /* FSCalendarCollectionViewLayout.h */,
+				434FA17148D3C6FA1652942126C809E6 /* FSCalendarCollectionViewLayout.m */,
+				1B64B7E16E7DF324EBD9A17CFBC2E663 /* FSCalendarConstants.h */,
+				60063EDAE441C47C47780DCAD695CF94 /* FSCalendarConstants.m */,
+				6E89F912ADF4220CA16E70FB1A23FBF0 /* FSCalendarDelegationFactory.h */,
+				CEB2A6D0B33E0DC495A7561A91B1144A /* FSCalendarDelegationFactory.m */,
+				0125908E7D9A4FCD4C36BD41C5CC7186 /* FSCalendarDelegationProxy.h */,
+				F1F3527E95640CAC051267AD119694CD /* FSCalendarDelegationProxy.m */,
+				A41959A7B5C529B1618A795DFA973DDE /* FSCalendarDynamicHeader.h */,
+				A5431C8700230EF022796184C7DFBF00 /* FSCalendarExtensions.h */,
+				6F524FC724E8EB9A26C4456BD048A113 /* FSCalendarExtensions.m */,
+				B07A9F4267113D52E9A574A4BC8E6705 /* FSCalendarHeaderView.h */,
+				DEAE2214F34A79F946704C35C533EE33 /* FSCalendarHeaderView.m */,
+				5F26B953C66A601BD19D27A248E8AC05 /* FSCalendarSeparatorDecorationView.h */,
+				6F20EC0DEF408EB12AB27C734130B0C8 /* FSCalendarSeparatorDecorationView.m */,
+				9E49E8A21247172A7D8A10DE246B4835 /* FSCalendarStickyHeader.h */,
+				6FA9C730048FF396E218152955E2A4F3 /* FSCalendarStickyHeader.m */,
+				AF793637DC2334F72180E46C1260B057 /* FSCalendarTransitionCoordinator.h */,
+				AA85E8F19872A0CA903FBDE5C6F058B9 /* FSCalendarTransitionCoordinator.m */,
+				9530749D2B3985089E7E24A2A0ED0B66 /* FSCalendarWeekdayView.h */,
+				5E75025E42A7EF9DB4B758459445C176 /* FSCalendarWeekdayView.m */,
+				B031D771344F4DDB23FBBCB210AC1C5C /* Support Files */,
+			);
+			name = FSCalendar;
+			path = FSCalendar;
+			sourceTree = "<group>";
+		};
+		CCD316E30694AFB5176D2491305648E6 /* ShadowElevations */ = {
+			isa = PBXGroup;
+			children = (
+				04AB9C3A775D5ABBA580EB9479343D83 /* MaterialShadowElevations.h */,
+				EFE73853A77844262AD23E87D29D46DD /* MaterialShadowElevationsDummy.m */,
+				02666807E897C30246D6737D54A6090D /* MDCShadowElevations.h */,
+			);
+			name = ShadowElevations;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				61B62E82B1B1B472076460EDFAD1C9F6 /* Pods */,
+				5BEBB1146E4A10CBAEADA6B79FE66EBE /* Products */,
+				BDEB329CDC12D74B82537EE60A6B78BB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E195BD8328622E0DE65E2B3398FFA70C /* BottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				025ECD622BA2A275974B3CDC56315947 /* MaterialBottomSheet.h */,
+				971D804D63C875889D1937DBF1520D31 /* MDCBottomSheetController.h */,
+				5B32D72EB779E99EA87C7FCA4BE78A50 /* MDCBottomSheetController.m */,
+				832EE9F9054BE14D004031C1319408DD /* MDCBottomSheetControllerDelegate.h */,
+				932F1942EEC5165A31AB98BECE0A636F /* MDCBottomSheetPresentationController.h */,
+				A273CF9B5350DBAFFB6655A5721B919D /* MDCBottomSheetPresentationController.m */,
+				E3689E2FD1E37A9E95CB58DD36F8C3A0 /* MDCBottomSheetPresentationControllerDelegate.h */,
+				9C54FF3BD348A99223EEA7DAF61A2072 /* MDCBottomSheetTransitionController.h */,
+				9843E89C85A0B165CAAB8972403A0E9A /* MDCBottomSheetTransitionController.m */,
+				5C06EB16C3F6DED8F7E2B8143D0CB860 /* MDCDraggableView.h */,
+				2F1D76E49C772146F5931B855824D013 /* MDCDraggableView.m */,
+				08F7BAA5A888D4FCC9F8D80D00970F10 /* MDCDraggableViewDelegate.h */,
+				E66C7E7E292017E2CE7786ECCACDB057 /* MDCSheetBehavior.h */,
+				0C0E68FB5B234F37B7A17AFE7D5512DB /* MDCSheetBehavior.m */,
+				6525D2DC6F6137D103B96854A911BA88 /* MDCSheetContainerView.h */,
+				494CC5574080259FAE91499599AB5A1A /* MDCSheetContainerView.m */,
+				8774EB8E1D3AEB5BE846442E809DB7B6 /* MDCSheetContainerViewDelegate.h */,
+				CE406BD4A77929A5098F6E8519C39185 /* MDCSheetState.h */,
+				CCD9C8FA910F8222F7F2501DB46CC6A4 /* UIViewController+MaterialBottomSheet.h */,
+				6060646F36E4C554DC3E4549842731CC /* UIViewController+MaterialBottomSheet.m */,
+			);
+			name = BottomSheet;
+			sourceTree = "<group>";
+		};
+		E4FF81C57BD7F145A046F6589E1EE456 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6BC3518725ED0791502E99F93252E2EE /* Foundation.framework */,
+				5B1EAD62DA5D58CA4EF748D66011CD37 /* QuartzCore.framework */,
+				B6054C3F749D7A5852580E7C66A51F32 /* UIKit.framework */,
+				8B9CD176E991CC22FCE7D7D63BEF4540 /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F015CAE74FB16811FD254D066B0DA55D /* Pods-Caffeine */ = {
+			isa = PBXGroup;
+			children = (
+				3EB0B57C80B1FA813EC6577415BA7424 /* Pods-Caffeine.modulemap */,
+				5049F8F970F0C9D20D8941FA2D14CD28 /* Pods-Caffeine-acknowledgements.markdown */,
+				B8A80398DAC4456265BE7AA65E0A7DAC /* Pods-Caffeine-acknowledgements.plist */,
+				718686C9F09A4B6C2B69FD4004D60515 /* Pods-Caffeine-dummy.m */,
+				D75B2081914933AAA06EA80521DA9214 /* Pods-Caffeine-frameworks.sh */,
+				7E5D467CFBF2F615D2CF9481DB8958F9 /* Pods-Caffeine-Info.plist */,
+				28429B6A5D78481F2F8418905B58B07C /* Pods-Caffeine-umbrella.h */,
+				A5BC7F5140419F4FA8B50AE93ABCDCC0 /* Pods-Caffeine.debug.xcconfig */,
+				4CC7A56A9BB0AC68D9BF3228390E5397 /* Pods-Caffeine.release.xcconfig */,
+			);
+			name = "Pods-Caffeine";
+			path = "Target Support Files/Pods-Caffeine";
+			sourceTree = "<group>";
+		};
+		F566A94078D93F474FFB95F257D2F517 /* Elevation */ = {
+			isa = PBXGroup;
+			children = (
+				E2B51A08EBED2F545CFB49F8EF1C6F81 /* MaterialElevation.h */,
+				47CBE6C5057C0695B1C530D387328CB6 /* MDCElevatable.h */,
+				8A99E0F703F177CC8DBC756296EBFBE8 /* MDCElevationOverriding.h */,
+				105AAB78480FA4CE8F26673614B5CAC9 /* UIColor+MaterialElevation.h */,
+				83E93DA664087A169A0B03AF45251CD6 /* UIColor+MaterialElevation.m */,
+				8C3498CD71A8B603C5C1AA8E52CA5C6B /* UIView+MaterialElevationResponding.h */,
+				0942864B314BFCC8CFC186ADCC8710FD /* UIView+MaterialElevationResponding.m */,
+			);
+			name = Elevation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2962B82404AF24029CCD6A2725158B7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BD813EB53FFD5E61D3E8D17FDEF5762 /* MaterialApplication.h in Headers */,
+				BAA19917A9D659B3AE6AC41D3D4870EE /* MaterialAvailability.h in Headers */,
+				23AD7797186955B046EA44B8636C1AC3 /* MaterialBottomSheet.h in Headers */,
+				0768B68EC675EBCCABB024A9FB318444 /* MaterialColor.h in Headers */,
+				958CEC0A17E65944F5C8A5500DE7FD00 /* MaterialComponents-umbrella.h in Headers */,
+				2B08C5A22A776EDEB74DB4B835A19B1D /* MaterialElevation.h in Headers */,
+				41EC1065752BAACEE3C4EDC8CABB900B /* MaterialKeyboardWatcher.h in Headers */,
+				ABEFEA99DE7320CC9D1D36002D45D83E /* MaterialMath.h in Headers */,
+				8607B06ECC453ABECA0C6F9E92395376 /* MaterialShadowElevations.h in Headers */,
+				9406299AFB3E995D047529C304D4A195 /* MaterialShadowLayer.h in Headers */,
+				D7DFC8407A67FE6F417824532A1351DA /* MaterialShapeLibrary.h in Headers */,
+				592002A7F1B30C9E5A6A2D3624E6642D /* MaterialShapes.h in Headers */,
+				25A90CB838F94F6308EA293F3047C42E /* MDCAvailability.h in Headers */,
+				2C0CEBFD92AF5FE06B0F5D47D68FB86B /* MDCBottomSheetController.h in Headers */,
+				A5951056C78026270D265B1A05FB77A0 /* MDCBottomSheetControllerDelegate.h in Headers */,
+				AB80344757F1BF9A274B8CEE167E3F30 /* MDCBottomSheetPresentationController.h in Headers */,
+				4EC8090B180710C479A3B21CD72FB213 /* MDCBottomSheetPresentationControllerDelegate.h in Headers */,
+				A1C152BD9F0F1606B6D90EAC1DF82700 /* MDCBottomSheetTransitionController.h in Headers */,
+				A27481E0C1947D76287FBB49CE42B06B /* MDCCornerTreatment+CornerTypeInitalizer.h in Headers */,
+				A8A9071E31DCB75622DA04C3ED40B98F /* MDCCornerTreatment.h in Headers */,
+				1A304FAEF5CF0C1E8622E908555FE490 /* MDCCurvedCornerTreatment.h in Headers */,
+				FB71B976745977B39DA0BC1B4766782A /* MDCCurvedRectShapeGenerator.h in Headers */,
+				B4F4CB89BD4FF9D22964FB5EFDD65C0F /* MDCCutCornerTreatment.h in Headers */,
+				BBF5E9A50B05DA9EA5A46F3838FA31AD /* MDCDraggableView.h in Headers */,
+				9359F19224DA2E55485BDC2CA57919BA /* MDCDraggableViewDelegate.h in Headers */,
+				E9D24B4691FEF6E79A0F60C321DEF39D /* MDCEdgeTreatment.h in Headers */,
+				62A95262A25CE34C27B3FD2B1969277C /* MDCElevatable.h in Headers */,
+				81F6B3871E03BF241CB40023C4442227 /* MDCElevationOverriding.h in Headers */,
+				79709A0F4E6BFCEF9D0E853CD6807959 /* MDCKeyboardWatcher.h in Headers */,
+				FC57BC309245609B0F44DFB1968D979D /* MDCMath.h in Headers */,
+				B382ED925D539434103D3DA8B1BEA917 /* MDCPathGenerator.h in Headers */,
+				AD6206FA289B4651BB747798FD46B7B8 /* MDCPillShapeGenerator.h in Headers */,
+				8226EF38F2234303BB738273DD72DF7A /* MDCRectangleShapeGenerator.h in Headers */,
+				51EBF4ED4DA88FCB58F2CAC291D1079A /* MDCRoundedCornerTreatment.h in Headers */,
+				FCBF6565CA4D10B61B1EBEAA81B4EE6B /* MDCShadowElevations.h in Headers */,
+				95D5BD0113DFC666346BDC9EE60E8D8D /* MDCShadowLayer.h in Headers */,
+				4958DBF1C53FFBB5924C6F3C91B9F7A9 /* MDCShapedShadowLayer.h in Headers */,
+				99E15058FFF8DDEFDE915CFCB913A34B /* MDCShapedView.h in Headers */,
+				19F431D12744F02779B1FCA82579DDD6 /* MDCShapeGenerating.h in Headers */,
+				9DC842FFE7C8DCB96E49F06BF7975DAE /* MDCShapeMediator.h in Headers */,
+				2A00198B4641725EC612125584590BA5 /* MDCSheetBehavior.h in Headers */,
+				83E77B4563193B5EF5BCD5BA674DC997 /* MDCSheetContainerView.h in Headers */,
+				C8B94A2D7B8639EAE6A57753CB5DB17B /* MDCSheetContainerViewDelegate.h in Headers */,
+				3873F4D2DBAA04C02ADADDDE71898F31 /* MDCSheetState.h in Headers */,
+				B5865268D0C8941A7FD48A91ECE400D6 /* MDCSlantedRectShapeGenerator.h in Headers */,
+				9EBA3162E0BFA77C454865EF907619DA /* MDCTriangleEdgeTreatment.h in Headers */,
+				34D352F0915CF9F8500B1D5A94AF36C6 /* UIApplication+MDCAppExtensions.h in Headers */,
+				647C3DF4DD99EF544435173281FF6E92 /* UIColor+MaterialBlending.h in Headers */,
+				1B304B7C5104F9421117AFEB21453F67 /* UIColor+MaterialDynamic.h in Headers */,
+				BAB06A62079EBC50FC3883D96ABFE581 /* UIColor+MaterialElevation.h in Headers */,
+				4A76ABED65F7F6BAC8338E6A602C1AB3 /* UIView+MaterialElevationResponding.h in Headers */,
+				6BC96BCB3EF130F53BB9A78D7E2EFB9E /* UIViewController+MaterialBottomSheet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C22843B09140AE1AC4818AE19E6D57 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF0F4DE23830413044CAA6AE33B31A7 /* Pods-Caffeine-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61A031D87FA293F87D12AFEEAD385CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB76EF4157ADE0806FA3B4A1549EAD2 /* FSCalendar-umbrella.h in Headers */,
+				0EDCAFA93DA0E7D98A2CF2386FEAA550 /* FSCalendar.h in Headers */,
+				58AD6758D9237AFCBAE75CF5AA275C47 /* FSCalendarAppearance.h in Headers */,
+				4B06E7A9994CCDB40333001E83F1FD79 /* FSCalendarCalculator.h in Headers */,
+				C476BDEFC2C6E6CC23C0613BC70FC1B3 /* FSCalendarCell.h in Headers */,
+				DEA8746B8ACC9D6CE9EBDEA8F8CB2E27 /* FSCalendarCollectionView.h in Headers */,
+				52565719316CADB05B7C8FA79964519A /* FSCalendarCollectionViewLayout.h in Headers */,
+				6CF04FDA8240D858280268329C2674E9 /* FSCalendarConstants.h in Headers */,
+				1ED6A018A50C929244C03FC6A46670F8 /* FSCalendarDelegationFactory.h in Headers */,
+				0C880D762097C192F231E5560AF4EE29 /* FSCalendarDelegationProxy.h in Headers */,
+				919B72E0CE7743838A947288D10AAEA3 /* FSCalendarDynamicHeader.h in Headers */,
+				0E4A225B2E9192B1B7C8DFB85B4303AF /* FSCalendarExtensions.h in Headers */,
+				BADEDF3F5C6B8ECA687B3061C65C7E5D /* FSCalendarHeaderView.h in Headers */,
+				C3C830DA8E913ECBCF786ECB939918B2 /* FSCalendarSeparatorDecorationView.h in Headers */,
+				0673F3481EF6165F70E8F0990278BDC7 /* FSCalendarStickyHeader.h in Headers */,
+				4B11C48CCA7FD866A774B0E49FB595DA /* FSCalendarTransitionCoordinator.h in Headers */,
+				91A96B98AD78AAD881AB6389B1368405 /* FSCalendarWeekdayView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13285D54682BEAD805960F9E6EEB9949 /* FSCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1747C1FC0D7AED6F717CE32ACF418CF5 /* Build configuration list for PBXNativeTarget "FSCalendar" */;
+			buildPhases = (
+				A61A031D87FA293F87D12AFEEAD385CC /* Headers */,
+				7CA9E2A18C014A20CD8A14FD9AFD84EB /* Sources */,
+				B93B0F6F7A24587A13A4DC4628DF35C0 /* Frameworks */,
+				F55CA98E8C93B232101DADF83D8625F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSCalendar;
+			productName = FSCalendar;
+			productReference = 95209B8BB966524BC76543F99C75F5FE /* FSCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B4723B5744013DF08BE3A5FEAA286944 /* MaterialComponents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C613962BF90A2E997E366FBBF280FBDC /* Build configuration list for PBXNativeTarget "MaterialComponents" */;
+			buildPhases = (
+				2962B82404AF24029CCD6A2725158B7D /* Headers */,
+				B7044B7EDB3CB1DEF12DE3B83560473D /* Sources */,
+				BED3178971CB04BB3492FDF570011C51 /* Frameworks */,
+				D4EA9371EBDEB67DEF5E9F9163A868DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaterialComponents;
+			productName = MaterialComponents;
+			productReference = A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EBB030DAF36209F8B27DE8C7A7F0C60E /* Pods-Caffeine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45E78780CED91462DBB5041588612B5 /* Build configuration list for PBXNativeTarget "Pods-Caffeine" */;
+			buildPhases = (
+				83C22843B09140AE1AC4818AE19E6D57 /* Headers */,
+				FAB142FDF9D2A18475E9AAC062F3B258 /* Sources */,
+				548B9FF411F539CCCE960C51FA012752 /* Frameworks */,
+				1AB017A3A1FCEF5AB27D9245504839B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				937CE03AFC9B98F7A5008C5B4319BDF3 /* PBXTargetDependency */,
+				EFAE8A7BB62486C0EF91878A5642DB1E /* PBXTargetDependency */,
+			);
+			name = "Pods-Caffeine";
+			productName = "Pods-Caffeine";
+			productReference = 5DC73543EC8A3D187F3E8B53467A363D /* Pods_Caffeine.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5BEBB1146E4A10CBAEADA6B79FE66EBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13285D54682BEAD805960F9E6EEB9949 /* FSCalendar */,
+				B4723B5744013DF08BE3A5FEAA286944 /* MaterialComponents */,
+				EBB030DAF36209F8B27DE8C7A7F0C60E /* Pods-Caffeine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AB017A3A1FCEF5AB27D9245504839B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4EA9371EBDEB67DEF5E9F9163A868DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55CA98E8C93B232101DADF83D8625F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CA9E2A18C014A20CD8A14FD9AFD84EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2126BAE2A3A69461E8B00562CFF6D67C /* FSCalendar-dummy.m in Sources */,
+				7EAEA451E04E5E96AFE6D1B63313F624 /* FSCalendar.m in Sources */,
+				8633C154CEC62F5ECAE687CC7ED8067E /* FSCalendarAppearance.m in Sources */,
+				FDB26845AA353936661B049BA64ABD25 /* FSCalendarCalculator.m in Sources */,
+				4C79C31591A80E7209E52F0928F7546C /* FSCalendarCell.m in Sources */,
+				E56AE3ED48D8E87D1CD9718291E0B5E5 /* FSCalendarCollectionView.m in Sources */,
+				487467099AB8229395A1A005DC6AD4F4 /* FSCalendarCollectionViewLayout.m in Sources */,
+				2E5EC07CFD18A132E57569D00117C703 /* FSCalendarConstants.m in Sources */,
+				083B18F49C35728E9A7B828E73DF2EB8 /* FSCalendarDelegationFactory.m in Sources */,
+				48DC50A48CEC3AEC56CB6C3144EF4D47 /* FSCalendarDelegationProxy.m in Sources */,
+				1BDE0FED974714A835CB89AD1062FF0D /* FSCalendarExtensions.m in Sources */,
+				FFF8E80B6D3629DB84D475C728EFCA1D /* FSCalendarHeaderView.m in Sources */,
+				0F2DEB38F550FF5F643CD48BE324B009 /* FSCalendarSeparatorDecorationView.m in Sources */,
+				1E0C257A13260508F9FC03D637764614 /* FSCalendarStickyHeader.m in Sources */,
+				D192D52340F6B27DA840BE2FA9F49EE9 /* FSCalendarTransitionCoordinator.m in Sources */,
+				3F0F6CEFD0801BEA64D1A265AE92FC05 /* FSCalendarWeekdayView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7044B7EDB3CB1DEF12DE3B83560473D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889FD7B6C2C8CD0E91C35B43074B0752 /* MaterialComponents-dummy.m in Sources */,
+				A67FEE8FD423E6C4A8EDA4F5DF3A9A80 /* MaterialMathDummy.m in Sources */,
+				B63C7F92C82593FA45FE0B2D94E188B4 /* MaterialShadowElevationsDummy.m in Sources */,
+				015511D4ACD183CB78F8F0F79FCF3F01 /* MDCBottomSheetController.m in Sources */,
+				87E4A53B714A12498CE600B77686C8A8 /* MDCBottomSheetPresentationController.m in Sources */,
+				F5C699B3399E7BF36A74BB4C56A46FD4 /* MDCBottomSheetTransitionController.m in Sources */,
+				E593E1AFC525348B0FA77DFE813F2350 /* MDCCornerTreatment+CornerTypeInitalizer.m in Sources */,
+				FE8C606CC7BB9361045058A446FCAA0A /* MDCCornerTreatment.m in Sources */,
+				E06FD07F020F4CD17109D4EFA1EDD6CE /* MDCCurvedCornerTreatment.m in Sources */,
+				357A8A169BB53A5F85A3B2EA04A54F0F /* MDCCurvedRectShapeGenerator.m in Sources */,
+				888032AC899C87D4E12B1993502699F2 /* MDCCutCornerTreatment.m in Sources */,
+				045B17ADCA714417CCF0DCC9D9096D24 /* MDCDraggableView.m in Sources */,
+				8DC48F8F5F7B03BDF176AFD6A6C286CD /* MDCEdgeTreatment.m in Sources */,
+				7F98776A7962572395F923703553ABAA /* MDCKeyboardWatcher.m in Sources */,
+				D46AD0CE508E5D8A5FC7F184DBBB1EAE /* MDCPathGenerator.m in Sources */,
+				7D3E486DB6C65975B839986EBFD38318 /* MDCPillShapeGenerator.m in Sources */,
+				3FF765F75F1270082F2EE95FDA9EF8BA /* MDCRectangleShapeGenerator.m in Sources */,
+				3F035D81FAF81A41E9E58238265A0051 /* MDCRoundedCornerTreatment.m in Sources */,
+				528D55FC297AD93F1463CAC1B0CCD1CD /* MDCShadowLayer.m in Sources */,
+				EBF5AB7255E72DB80DF0BA04CED4C295 /* MDCShapedShadowLayer.m in Sources */,
+				84B037D3215B9BD0863CAE3BB692CAE2 /* MDCShapedView.m in Sources */,
+				F5D92BD96561735261424D962B1582BF /* MDCShapeMediator.m in Sources */,
+				2E2BD5BB87E4AC41401353835E7F7914 /* MDCSheetBehavior.m in Sources */,
+				46495406605D108F4CD12BDE5A4B6AF2 /* MDCSheetContainerView.m in Sources */,
+				1A6CEDB0E42E0DEA22512AE2D91707C8 /* MDCSlantedRectShapeGenerator.m in Sources */,
+				066439D717AE4BC003363486E27C707A /* MDCTriangleEdgeTreatment.m in Sources */,
+				CA73DDDB149041B138811BE98924C594 /* UIApplication+MDCAppExtensions.m in Sources */,
+				68D1C976F2E0B7ACB1000C5FB3ADA5E1 /* UIColor+MaterialBlending.m in Sources */,
+				6F3E35952D17589EA939B24A4798FDF0 /* UIColor+MaterialDynamic.m in Sources */,
+				D2DA847A5AFB71B24633A81F490B05EC /* UIColor+MaterialElevation.m in Sources */,
+				ED5B7134348145D025C2B7AEC4A896ED /* UIView+MaterialElevationResponding.m in Sources */,
+				A8F0EC87E16102BC801E1429E3A259AA /* UIViewController+MaterialBottomSheet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB142FDF9D2A18475E9AAC062F3B258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046F6C91F05E7887A8494A5130BA030F /* Pods-Caffeine-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		937CE03AFC9B98F7A5008C5B4319BDF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FSCalendar;
+			target = 13285D54682BEAD805960F9E6EEB9949 /* FSCalendar */;
+			targetProxy = B6B3CAE36E62899645D318202FFCFDCD /* PBXContainerItemProxy */;
+		};
+		EFAE8A7BB62486C0EF91878A5642DB1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MaterialComponents;
+			target = B4723B5744013DF08BE3A5FEAA286944 /* MaterialComponents */;
+			targetProxy = AD1AED75C61FD2610EAF1D64F729FA3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2DE1FA53F21B86FD8F9A5864089ED240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25D0771FECE3AC4D2DAEF099695FA39C /* MaterialComponents.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MaterialComponents/MaterialComponents-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaterialComponents/MaterialComponents-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MaterialComponents/MaterialComponents.modulemap";
+				PRODUCT_MODULE_NAME = MaterialComponents;
+				PRODUCT_NAME = MaterialComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53DD0D1E27991F6648DCBA6C18905269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CC7A56A9BB0AC68D9BF3228390E5397 /* Pods-Caffeine.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Caffeine/Pods-Caffeine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Caffeine/Pods-Caffeine.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9FF8B44D14C428113C858E43C2970EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F8114A5092C310E22DE50AB0CED7FDE /* MaterialComponents.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MaterialComponents/MaterialComponents-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaterialComponents/MaterialComponents-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MaterialComponents/MaterialComponents.modulemap";
+				PRODUCT_MODULE_NAME = MaterialComponents;
+				PRODUCT_NAME = MaterialComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C924C4AEF2008FDC7631B9FBDD00FBC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5BC7F5140419F4FA8B50AE93ABCDCC0 /* Pods-Caffeine.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Caffeine/Pods-Caffeine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Caffeine/Pods-Caffeine.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9D8A777643BBEC6139AA8A963349D4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38750272F8B08F8B7E63B0959CFE3D33 /* FSCalendar.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSCalendar/FSCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FSCalendar/FSCalendar.modulemap";
+				PRODUCT_MODULE_NAME = FSCalendar;
+				PRODUCT_NAME = FSCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9FE9FE12E4D706F3987DC0AFBD314FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D259C00778933C629B10CFE17707928 /* FSCalendar.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FSCalendar/FSCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FSCalendar/FSCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FSCalendar/FSCalendar.modulemap";
+				PRODUCT_MODULE_NAME = FSCalendar;
+				PRODUCT_NAME = FSCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1747C1FC0D7AED6F717CE32ACF418CF5 /* Build configuration list for PBXNativeTarget "FSCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9D8A777643BBEC6139AA8A963349D4C /* Debug */,
+				C9FE9FE12E4D706F3987DC0AFBD314FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C613962BF90A2E997E366FBBF280FBDC /* Build configuration list for PBXNativeTarget "MaterialComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE1FA53F21B86FD8F9A5864089ED240 /* Debug */,
+				9FF8B44D14C428113C858E43C2970EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E45E78780CED91462DBB5041588612B5 /* Build configuration list for PBXNativeTarget "Pods-Caffeine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C924C4AEF2008FDC7631B9FBDD00FBC6 /* Debug */,
+				53DD0D1E27991F6648DCBA6C18905269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
